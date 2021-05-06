@@ -577,6 +577,23 @@ h3{
     .img6, .img7, .img8, .img9{
         width: 10%;
     }
+
+    #map iframe{
+        margin-top: 30px;
+        height: 80%;
+        width: 50%;
+
+    }
+
+    .container3 .caja1 h2{
+        margin-top: 230px;
+    }
+
+    #map{
+        padding-top: 0px;
+    }
+
+
     /* .col30 p{
         text-align: center;  
         width: 100%;
@@ -593,3 +610,108 @@ h3{
         margin-left: 70%;
     }*/
 } 
+
+@media (max-width: 425px){
+    #page-nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #page-nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-50{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container3 .caja1{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container3 .col1 {
+        width: 70%;
+        margin-left: 15%;
+}
+    .container3 .col2{
+        width: 70%;
+        margin-left: 15%;
+
+    }
+    .container3 .col3{
+        width: 70%;
+        margin-left: 15%;
+
+    }
+
+    #page-nav ul li{
+        text-align: center;
+    }
+
+    #logo h1{
+        margin-left: 30px;
+    }
+
+    .container1 .row .col1 button{
+        margin-top: 0px;
+        background-color: white;
+        opacity: 1;
+        color: black;
+    }
+
+    .col2 img{
+        display: none;
+    }
+
+    .container1 .row{
+        background-image: url("https://s1.1zoom.me/big0/563/DS_4_Crossback_Red_519874_1280x856.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container1 .row {
+        height: 60vh;
+        height: 80%;    
+    }
+
+    .container1 .row .col1 h2{
+        font-size: 20px;
+    }
+
+    #map{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center
+    }
+
+    .col30 {
+        width: 80%;
+        margin-left: 15%;
+}
+
+    .container1 .row .col1{
+        background-color: black;
+        opacity: 0.7;
+    }
+
+   
+    footer .cont-info{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    footer{
+        height: 190px;
+    }
+
+    .check #check{
+        float: none;
+    }
+}
